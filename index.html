@@ -2,52 +2,203 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
+
+    <style>
+    #navbar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+      @media only screen and (max-width: 400px) {
+       .body {
+         background-color: red;
+       }
+       #navbar {padding-top: 15px;}
+      #navbar a {font-size: 18px;}
+      }
+    </style>
+
+
+
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
- 
+
     <main id = "main-doc">
-      <section class="main-section" id="sample_text_tt_y">
-        <header>sample text tt y</header>
-        <p>tesre</p>
-        <p>tesr</p>
-        <p>tesre</p>
-        <p>tesr</p>
-        <p>tesr</p>
 
-      </section>
       <section class="main-section" id="sample_text_tt">
-        <header> sample text tt</header>
-        <p>test</p>
-        <p>tesre</p>
-        <p>tesr</p>
-        <p>tesre</p>
-        <p>tesr</p>
+        <header>sample text tt</header>
+        <code>
+          "function greet(name) { alert("Hello " + name); }
+          greet("world"); "
+        </code>
+        <article>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
 
+          <ul>
+            <li>Hello</li>
+            <li>Hello</li>
+            <li>Hello</li>
+          </ul>
+        </article>
       </section>
+
       <section class="main-section" id="sample_text_2_tt">
         <header>sample text 2 tt</header>
+        <code>
+          "function greet(name) { alert("Hello " + name); }
+          greet("world"); "
+        </code>
+
+        <article>
+          <p>test</p>
+          <p>test</p>
+
+          <ul>
+            <li>Hello</li>
+            <li>Hello</li>
+            <li>Hello</li>
+          </ul>
+        </article>
 
       </section>
+
       <section class="main-section" id="sample_text_3_tt">
         <header>sample text 3 tt</header>
 
+        <article>
+          <code>
+            "function greet(name) { alert("Hello " + name); }
+            greet("world"); "
+          </code>
+        </article>
+        <p>test</p>
+        <p>test</p>
       </section>
+
       <section class="main-section" id="sample_text_4_tt">
         <header>sample text 4 tt</header>
+        <p>sample text 4 tt</p>
+        <p>sample text 4 tt</p>
+        <p>sample text 4 tt</p>
+        <code>
+          "function greet(name) { alert("Hello " + name); }
+          greet("world"); "
+        </code>
+        <p>test</p>
+        <p>test</p>
+        <ol>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+
+        </ol>
 
       </section>
+
       <section class="main-section" id="sample_text_5_tt">
         <header>sample text 5 tt</header>
+        <code>
+          "function greet(name) { alert("Hello " + name); }
+          greet("world"); "
+        </code>
+        <p>sample text 5 tt</p>
+        <p>sample text 5 tt</p>
+        <p>sample text 5 tt</p>
+        <ol>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+
+        </ol>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
 
       </section>
 
+      <section class="main-section" id="sample_text_6_tt">
+        <header>sample text 6 tt</header>
+        <code>
+          "function greet(name) { alert("Hello " + name); }
+          greet("world"); "
+        </code>
+        <p>sample text 5 tt</p>
+        <p>sample text 5 tt</p>
+        <p>sample text 5 tt</p>
+        <ol>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+
+        </ol>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+
+      </section>
+
+      <section class="main-section" id="sample_text_7_tt">
+        <header>sample text 7 tt</header>
+        <code>
+          "function greet(name) { alert("Hello " + name); }
+          greet("world"); "
+        </code>
+        <p>sample text 5 tt</p>
+        <p>sample text 5 tt</p>
+        <p>sample text 5 tt</p>
+        <ol>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+
+        </ol>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+
+      </section>
+
+
+
     </main>
-    
+
+    <nav id="navbar">
+      <header> sample text tt</header>
+      <a href="#sample_text_tt" class="nav-link"> sample text tt</a>
+      <a href="#sample_text_2_tt" class="nav-link">sample text 2 tt</a>
+      <a href="#sample_text_3_tt" class="nav-link">sample text 3 tt</a>
+      <a href="#sample_text_4_tt" class="nav-link">sample text 4 tt</a>
+      <a href="#sample_text_5_tt" class="nav-link">sample text 5 tt</a>
+      <a href="#sample_text_6_tt" class="nav-link">sample text 6 tt</a>
+      <a href="#sample_text_7_tt" class="nav-link">sample text 7 tt</a>
+    </nav>
+
 
     <script  src="js/index.js"></script>
   </body>
